@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UISimpleTouchControl.js">
     <Files>
-      <File FileName="Assets\Scripts\UIMananger.js" Line="13" Column="1" />
+      <File FileName="Assets\Scripts\UITouchControl.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UIMananger.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\UISimpleTouchControl.js" Line="7" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>

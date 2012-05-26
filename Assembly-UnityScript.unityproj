@@ -45,7 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameClock.js" />
-     <Compile Include="Assets\Scripts\ShipController.js" />
+     <Compile Include="Assets\Scripts\ShipEngines.js" />
      <Compile Include="Assets\Scripts\UIMananger.js" />
      <Compile Include="Assets\Scripts\UISimpleTouchControl.js" />
      <Compile Include="Assets\Scripts\UITouchControl.js" />
