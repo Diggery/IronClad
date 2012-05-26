@@ -5,8 +5,6 @@ Project("{05ED3034-5C14-FF67-2355-6BC021E85C81}") = "IronClad", "Assembly-CSharp
 EndProject
 Project("{05ED3034-5C14-FF67-2355-6BC021E85C81}") = "IronClad", "Assembly-CSharp-Editor.csproj", "{C86B900B-2207-4CA3-C22C-6C4812D65ED1}"
 EndProject
-Project("{05ED3034-5C14-FF67-2355-6BC021E85C81}") = "IronClad", "Assembly-UnityScript-firstpass.unityproj", "{AA841C77-C42C-8222-4886-FFA1FD901357}"
-EndProject
 Project("{05ED3034-5C14-FF67-2355-6BC021E85C81}") = "IronClad", "Assembly-UnityScript.unityproj", "{770F892F-618A-1E07-9A88-5625C1417906}"
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{C86B900B-2207-4CA3-C22C-6C4812D65ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C86B900B-2207-4CA3-C22C-6C4812D65ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C86B900B-2207-4CA3-C22C-6C4812D65ED1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA841C77-C42C-8222-4886-FFA1FD901357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA841C77-C42C-8222-4886-FFA1FD901357}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA841C77-C42C-8222-4886-FFA1FD901357}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA841C77-C42C-8222-4886-FFA1FD901357}.Release|Any CPU.Build.0 = Release|Any CPU
 		{770F892F-618A-1E07-9A88-5625C1417906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{770F892F-618A-1E07-9A88-5625C1417906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{770F892F-618A-1E07-9A88-5625C1417906}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-						GlobalSection(MonoDevelopProperties) = preSolution
+												GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -45,9 +45,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\PlayerPrefs.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
      <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
      <None Include="Assets\Shaders\Unlit-TexturewithColor.shader" />
      <None Include="Assets\Shaders\Unlit-AdditivewithColorNoCulling.shader" />

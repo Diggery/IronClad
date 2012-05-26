@@ -45,10 +45,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\GameClock.js" />
-     <Compile Include="Assets\Scripts\NewScript.js" />
+     <Compile Include="Assets\Scripts\ShipController.js" />
      <Compile Include="Assets\Scripts\UIMananger.js" />
      <Compile Include="Assets\Scripts\UISimpleTouchControl.js" />
      <Compile Include="Assets\Scripts\UITouchControl.js" />
+     <Compile Include="Assets\Scripts\Utilities\Util.js" />
+     <Compile Include="Assets\Scripts\WorldController.js" />
      <None Include="Assets\Shaders\Unlit-TexturewithColor.shader" />
      <None Include="Assets\Shaders\Unlit-AdditivewithColorNoCulling.shader" />
      <None Include="Assets\Shaders\Unlit-OverlaywithColor.shader" />
@@ -62,8 +64,6 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{85CF94A2-DD63-474A-763E-7B11C39EF306}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{AA841C77-C42C-8222-4886-FFA1FD901357}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
