@@ -23,6 +23,13 @@ class Util {
 		}
 		return direction;
     }
+     static function getDirection(vector : Vector2) {
+		var direction : float = Vector2.Angle(Vector2.up, vector);
+		if (vector.x < 0) {
+			direction = 360 - direction;
+		}
+		return direction;
+    }
     static function getDirection(vector : Vector3) {
 		var direction : float = Vector2.Angle(Vector2.up, Vector2(vector.x, vector.z));
 		if (vector.x < 0) {

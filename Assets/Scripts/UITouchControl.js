@@ -1,9 +1,9 @@
 var uiManager					: UIMananger;
-var touchDistance				: Vector2;
+private var touchDistance		: Vector2;
 
-var startTargets				: Transform[];
-var gestureArmed				: boolean[];
-var touchTime					: float[];
+private var startTargets		: Transform[];
+private var gestureArmed		: boolean[];
+private var touchTime			: float[];
 var tapTime						: float;
 
 private var lastTime 			: double; 

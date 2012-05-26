@@ -20,7 +20,11 @@ function Update () {
 	currentAngle = transform.localEulerAngles.y;
 	if (currentAngle > 180) currentAngle = -360 + currentAngle;
 	
-	if (currentAngle - heading > 0) {
+	var turnLeft : boolean;
+	
+	if (currentAngle - heading > 0) turnLeft = true;
+	
+	if (turnLeft) {
 		rigidbody.AddTorque(0, -manuveringPower, 0);
 	} else {
 		rigidbody.AddTorque(0, manuveringPower, 0);

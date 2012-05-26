@@ -24,7 +24,8 @@ function touchDrag(touchDelta : Vector2, touchDistance : Vector2, touchPosition 
 	var layerMask : LayerMask;
 	var worldPos : Vector2;
 	
-
+	if (!startTarget) return;
+	if (startTarget.name == "Wheel") (startTarget.GetComponent(HUDWheel) as HUDWheel).setAngle(touchPosition);
 	
 }
 
