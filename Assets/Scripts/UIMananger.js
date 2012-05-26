@@ -26,6 +26,7 @@ function touchDrag(touchDelta : Vector2, touchDistance : Vector2, touchPosition 
 	
 	if (!startTarget) return;
 	if (startTarget.name == "Wheel") (startTarget.GetComponent(HUDWheel) as HUDWheel).setAngle(touchPosition);
+	if (startTarget.name == "Power") (startTarget.GetComponent(HUDPower) as HUDPower).setPower(touchDelta.y);
 	
 }
 

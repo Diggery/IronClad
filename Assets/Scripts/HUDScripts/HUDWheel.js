@@ -18,3 +18,4 @@ function setAngle(touchPos : Vector2) {
 
 	heading = (Util.getDirection(touchPos - wheelCenter));
 }
+
