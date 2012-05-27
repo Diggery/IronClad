@@ -20,3 +20,5 @@ function Update () {
 static function getDeltaTime() : float {
 	return deltaTime;
 }
+
+//comment
