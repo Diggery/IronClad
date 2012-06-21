@@ -17,8 +17,6 @@ function Update () {
 	lastTime = Time.realtimeSinceStartup;
 }
 
-static function getDeltaTime() : float {
-	return deltaTime;
-}
+
 
 //comment
