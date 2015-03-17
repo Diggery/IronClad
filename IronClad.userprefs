@@ -1,13 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BattleScripts/RoomManager.js">
-    <Files>
-      <File FileName="Assets/Scripts/BattleScripts/TeamControl.js" Line="14" Column="39" />
-      <File FileName="Assets/Scripts/TouchManager.js" Line="25" Column="94" />
-      <File FileName="Assets/Scripts/BattleScripts/RoomManager.js" Line="5" Column="24" />
-      <File FileName="Assets/Scripts/BattleScripts/CrewManager.js" Line="37" Column="18" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
