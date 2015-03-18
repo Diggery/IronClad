@@ -4,34 +4,52 @@ using System.Collections;
 public class CrewMover : MonoBehaviour {
 
 
-	public Transform posGoal;
 
 	public float moveSpeed = 100;
 	public float groundDrag = 3;
 
+
+
 	Rigidbody rigidBody;
+	CrewTargeting crewTargeting;
+
 	bool onGround;
+	bool attacking = true;
+	bool moving;
+
+	Vector3 facingDirection = Vector3.forward;
 
 	void Start () {
+		crewTargeting = gameObject.AddComponent<CrewTargeting> ();
 		rigidBody = GetComponent<Rigidbody>();
 	}
 	
 	void FixedUpdate () {
+		Transform target = crewTargeting.GetTarget ();
 
-		// move to goal
-		Vector3 posGoalOffset = Vector3.ClampMagnitude ((posGoal.position - transform.position), 1);
-		posGoalOffset.y = 0; // remove any y force
-		rigidBody.AddForce (posGoalOffset * moveSpeed);
+		Vector3 posGoal = transform.position;
+
+		if (target && attacking) {// move to goal
+			posGoal = target.position;
+		}
+
+		Vector3 posGoalOffset = posGoal - transform.position;
+		if (posGoalOffset.sqrMagnitude > 1.5) {
+			posGoalOffset.y = 0; // remove any y force
+			posGoalOffset.Normalize ();
+			facingDirection = posGoalOffset;
+			rigidBody.AddForce (posGoalOffset * moveSpeed);
+			moving = true;
+		} else {
+			moving = false;
+		}
 	}
 
 	void Update () {
 
 		// rotate along path
-		Vector3 moveDirection = rigidBody.velocity;
-		moveDirection.y = 0;
-		if (onGround && moveDirection.magnitude > 0.1f) {
-			moveDirection.Normalize ();
-			Quaternion rotGoal = Quaternion.LookRotation (moveDirection);
+		if (onGround) {
+			Quaternion rotGoal = Quaternion.LookRotation (facingDirection);
 			transform.rotation = Quaternion.Lerp(transform.rotation, rotGoal, Time.deltaTime * 8);
 		}
 	}

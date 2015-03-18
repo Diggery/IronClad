@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UnitControl\CrewMover.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AnimBehavior.cs">
     <Files>
-      <File FileName="Assets\Scripts\UnitControl\CrewMover.cs" Line="35" Column="88" />
+      <File FileName="Assets\Scripts\UnitControl\CrewMover.cs" Line="35" Column="1" />
+      <File FileName="Assets\Scripts\UnitControl\CrewTargeting.cs" Line="1" Column="1" />
+      <File FileName="Assets\AnimBehavior.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
